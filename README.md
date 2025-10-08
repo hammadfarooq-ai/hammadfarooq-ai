@@ -34,7 +34,7 @@
   <a href="https://www.youtube.com/@Guidinglight-2747"><img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white" /></a>
   <a href="mailto:hammadfarooq470@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" /></a>
 </p>
----
+
 
 # 💻 Tech Stack:
 
@@ -66,9 +66,9 @@
 
 # 🏅 Certifications:
 
-- [Machine Learning with Python – IBM](https://courses.cognitiveclass.ai/certificates/cba3b93fe7d24f0d98fd7604a95a6348)  
-- [Data Visualization with Python – IBM](https://courses.cognitiveclass.ai/certificates/bef61b1196af4d22b859bc323d415fe0)  
-- [Intro to Machine Learning – Kaggle](https://www.kaggle.com/learn/certification/hammadfarooq470/intro-to-machine-learning)  
+- [IBM AI Engineering – IBM]([https://courses.cognitiveclass.ai/certificates/cba3b93fe7d24f0d98fd7604a95a6348](https://www.coursera.org/account/accomplishments/professional-cert/YH09IVR227K0))  
+- [Microsoft AI & ML Engineering – Microsoft]([https://courses.cognitiveclass.ai/certificates/bef61b1196af4d22b859bc323d415fe0](https://www.coursera.org/account/accomplishments/professional-cert/QFL9NO24AM7X))  
+- [Statistics with Python – University of Michigan]([https://www.kaggle.com/learn/certification/hammadfarooq470/intro-to-machine-learning](https://www.coursera.org/account/accomplishments/specialization/AXVDK22Y3XT4))  
 - Machine Learning Internship Certificate – Arch Technologies
 
 ---
