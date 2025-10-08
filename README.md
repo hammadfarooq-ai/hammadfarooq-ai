@@ -1,14 +1,16 @@
-# <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> Hi There!, I'm Hammad Farooq — a Machine Learning Engineer from Pakistan
+# <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> Hi There!, I'm Hammad Farooq — a Data Scientist from Pakistan
 
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
   <div id="badges">
 
-🎓 Currently pursuing **BS in Data Science** from Virtual University of Pakistan  
-💻 Machine Learning Intern @ **Arch Technologies** (Apr 2025 – May 2025)  
-📊 Passionate about **Data Science**, **Deep Learning**, and **AI-powered solutions**  
-📹 Just started sharing insights on my [YouTube channel](https://www.youtube.com/@Guidinglight-2747)  
+<p align="left">
+🎓 Currently pursuing <b>BS in Data Science</b> from Virtual University of Pakistan<br>
+💻 Machine Learning Intern @ <b>Arch Technologies</b> (Apr 2025 – May 2025)<br>
+📊 Passionate about <b>Data Science</b>, <b>Deep Learning</b>, and <b>AI-powered solutions</b><br>
+📹 Just started sharing insights on my <a href="https://www.youtube.com/@Guidinglight-2747">YouTube channel</a><br>
 🌐 Building intelligent tools that solve real-world problems
+</p>
 
   </div>
   <img src="https://komarev.com/ghpvc/?username=hammadfarooq-ai&style=flat-square&color=blue" alt=""/>
@@ -66,9 +68,9 @@
 
 # 🏅 Certifications:
 
-- [IBM AI Engineering – IBM]([https://courses.cognitiveclass.ai/certificates/cba3b93fe7d24f0d98fd7604a95a6348](https://www.coursera.org/account/accomplishments/professional-cert/YH09IVR227K0))  
-- [Microsoft AI & ML Engineering – Microsoft]([https://courses.cognitiveclass.ai/certificates/bef61b1196af4d22b859bc323d415fe0](https://www.coursera.org/account/accomplishments/professional-cert/QFL9NO24AM7X))  
-- [Statistics with Python – University of Michigan]([https://www.kaggle.com/learn/certification/hammadfarooq470/intro-to-machine-learning](https://www.coursera.org/account/accomplishments/specialization/AXVDK22Y3XT4))  
+- [IBM AI Engineering – IBM](https://www.coursera.org/account/accomplishments/professional-cert/YH09IVR227K0)  
+- [Microsoft AI & ML Engineering – Microsoft](https://www.coursera.org/account/accomplishments/professional-cert/QFL9NO24AM7X)  
+- [Statistics with Python – University of Michigan](https://www.coursera.org/account/accomplishments/specialization/AXVDK22Y3XT4)
 - Machine Learning Internship Certificate – Arch Technologies
 
 ---
