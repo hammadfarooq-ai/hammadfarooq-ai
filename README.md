@@ -5,7 +5,6 @@
   <div id="badges">
 
 <p align="left">
-🎓 Currently pursuing <b>BS in Data Science</b> from Virtual University of Pakistan<br>
 💻 Machine Learning Intern @ <b>Arch Technologies</b> (Apr 2025 – May 2025)<br>
 📊 Passionate about <b>Data Science</b>, <b>Deep Learning</b>, and <b>AI-powered solutions</b><br>
 📹 Just started sharing insights on my <a href="https://www.youtube.com/@Guidinglight-2747">YouTube channel</a><br>
