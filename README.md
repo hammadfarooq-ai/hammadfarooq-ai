@@ -13,7 +13,7 @@
 <!-- ─────────────── SOCIAL BADGES ─────────────── -->
 <p>
   <a href="https://www.linkedin.com/in/hammadfarooq-ai/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://www.kaggle.com/hammadfarooq470"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle"/></a>
+  <a href="https://www.kaggle.com/malikhammadfarooq"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle"/></a>
   <a href="https://medium.com/@hammad-farooq"><img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/></a>
   <a href="https://www.youtube.com/@Guidinglight-2747"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a>
   <a href="https://x.com/HammadFarooq470"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
@@ -24,11 +24,45 @@
   <img src="https://komarev.com/ghpvc/?username=hammadfarooq-ai&style=flat-square&color=38BDF8&label=PROFILE+VIEWS" alt="Profile views"/>
   <img src="https://img.shields.io/badge/Based%20in-Lahore,%20Pakistan-1f2937?style=flat-square&logo=googlemaps&logoColor=38BDF8" alt="Location"/>
   <img src="https://img.shields.io/badge/Open%20to-Remote%20%26%20Relocation-16a34a?style=flat-square&logo=briefcase&logoColor=white" alt="Availability"/>
+  <img src="https://img.shields.io/badge/Focus-ML%20%7C%20RAG%20%7C%20MLOps-6D28D9?style=flat-square&logo=probot&logoColor=white" alt="Focus"/>
 </p>
 
 </div>
 
 <img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" width="100%" />
+
+<!-- ═══════════════════════════════ AT A GLANCE ═══════════════════════════════ -->
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="20%">
+  <img src="https://img.icons8.com/fluency/56/medal2.png" width="42"/><br/>
+  <b>2x</b><br/><sub>Kaggle Grandmaster</sub>
+</td>
+<td align="center" width="20%">
+  <img src="https://img.icons8.com/fluency/56/prize.png" width="42"/><br/>
+  <b>#15</b><br/><sub>Global Rank</sub>
+</td>
+<td align="center" width="20%">
+  <img src="https://img.icons8.com/fluency/56/jupyter.png" width="42"/><br/>
+  <b>620+</b><br/><sub>Notebooks</sub>
+</td>
+<td align="center" width="20%">
+  <img src="https://img.icons8.com/fluency/56/database.png" width="42"/><br/>
+  <b>154+</b><br/><sub>Datasets</sub>
+</td>
+<td align="center" width="20%">
+  <img src="https://img.icons8.com/fluency/56/timeline.png" width="42"/><br/>
+  <b>5+ yrs</b><br/><sub>Experience</sub>
+</td>
+</tr>
+</table>
+
+</div>
+
+---
 
 <!-- ═══════════════════════════════ ABOUT ═══════════════════════════════ -->
 
@@ -57,7 +91,7 @@ class HammadFarooq:
 > models — classification, regression, clustering, and time-series forecasting — for clients across
 > finance, real estate, legal-tech, healthcare, and enterprise business intelligence.
 
-- 🔭 &nbsp;Currently building **multi-agent LLM platforms** and **production ML pipelines** at **seKer AI**
+- 🔭 &nbsp;Building **multi-agent LLM platforms** and **production ML pipelines**
 - 🏆 &nbsp;**2x Kaggle Grandmaster** — ranked **#15 globally** in both *Datasets* and *Notebooks*
 - 📈 &nbsp;**620+** public notebooks · **154+** datasets · fully reproducible experiment repositories
 - 🎓 &nbsp;Invited speaker, **AI Technologies Summer School 2026** (Ivan Franko National University, Ukraine)
@@ -68,11 +102,62 @@ class HammadFarooq:
 
 ---
 
-<!-- ═══════════════════════════════ TECH STACK ═══════════════════════════════ -->
+<!-- ═══════════════════════════════ WORKFLOW DIAGRAM ═══════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> &nbsp;Tech Stack
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> &nbsp;How I Build ML Systems
+
+```mermaid
+flowchart LR
+    A([Raw Data]) --> B[EDA &<br/>Cleaning]
+    B --> C[Feature<br/>Engineering]
+    C --> D{Modeling}
+    D --> E[Classification<br/>Regression<br/>Clustering]
+    D --> F[Forecasting<br/>ARIMA / TS]
+    D --> G[Deep Learning<br/>Transformers / CNN]
+    E --> H[Validation &<br/>Evaluation]
+    F --> H
+    G --> H
+    H --> I[FastAPI +<br/>Docker]
+    I --> J[Azure ML<br/>Deployment]
+    J --> K([Monitoring &<br/>Drift Guardrails])
+
+    classDef src fill:#0F2027,stroke:#38BDF8,stroke-width:2px,color:#ffffff
+    classDef step fill:#1f2937,stroke:#38BDF8,stroke-width:1px,color:#e5e7eb
+    classDef model fill:#312e81,stroke:#818cf8,stroke-width:1px,color:#ffffff
+    classDef ship fill:#064e3b,stroke:#34d399,stroke-width:1px,color:#ffffff
+
+    class A,K src
+    class B,C,H step
+    class D,E,F,G model
+    class I,J ship
+```
 
 <div align="center">
+
+| Stage | What I Actually Do |
+|:--|:--|
+| 🔍 **Explore** | Statistical EDA, hypothesis & A/B testing, data quality auditing |
+| 🧱 **Engineer** | Feature design, encoding, scaling, leakage checks, PySpark pipelines |
+| 🧠 **Model** | Random Forest, Gradient Boosting, ARIMA, CNN, transfer learning, fine-tuning |
+| 📏 **Validate** | Cross-validation, metric selection, error analysis, calibration |
+| 🚀 **Ship** | FastAPI services, Docker images, CI/CD on GitHub, Azure ML |
+| 📡 **Monitor** | Drift detection, prediction-quality checks, safety guardrails |
+
+</div>
+
+---
+
+<!-- ═══════════════════════════════ TECH STACK ═══════════════════════════════ -->
+
+## <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="28"> &nbsp;Tech Stack
+
+<div align="center">
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,opencv,fastapi,flask,docker,azure,postgres,mysql,git,github,githubactions,vscode,cpp,c,linux,anaconda,redis&perline=10" alt="Skill icons" />
+</a>
+
+<br/><br/>
 
 #### 🧠 &nbsp;Languages & Data
 
@@ -104,7 +189,7 @@ class HammadFarooq:
 #### 🧬 &nbsp;Generative AI & LLM Engineering
 
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![OpenAI](https://img.shields.io/badge/GPT--4o-412991?style=for-the-badge&logo=openai&logoColor=white)
+![GPT-4o](https://img.shields.io/badge/GPT--4o-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white)
 ![Chroma](https://img.shields.io/badge/Chroma-FF6B6B?style=for-the-badge&logo=databricks&logoColor=white)
@@ -133,72 +218,37 @@ class HammadFarooq:
 
 ---
 
-<!-- ═══════════════════════════════ EXPERIENCE ═══════════════════════════════ -->
+<!-- ═══════════════════════════════ FOCUS SPLIT ═══════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="28"> &nbsp;Professional Experience
+## <img src="https://media.giphy.com/media/UVG0BN8TOMKkPOJS6e/giphy.gif" width="28"> &nbsp;Where I Spend My Time
 
 <table>
 <tr>
-<td width="34%" valign="top">
+<td width="50%" valign="top">
 
-### 🏢 seKer AI
-**Data Scientist & AI Developer**
-
-`May 2022 – Present` · Remote
-
-</td>
-<td valign="top">
-
-End-to-end data science engagements for international clients — from EDA and feature engineering
-through model selection, validation, and deployment.
-
-- Productionized ML pipelines in **Python / Scikit-learn / PyTorch** across classification, regression, clustering and forecasting
-- Built retrieval and analytics systems with **FAISS / Chroma** and multi-source ingestion for enterprise Q&A
-- Deployed models as **FastAPI** services; tuned latency and throughput, monitored prediction quality and drift
-- Implemented evaluation checks and **safety guardrails**; automated workflows with n8n / Make.com / Zapier
-- Presented model trade-offs and recommendations directly to non-technical stakeholders
+```mermaid
+pie showData
+    title Focus Areas
+    "Machine Learning & Modeling" : 35
+    "Generative AI / RAG & Agents" : 30
+    "Data Engineering & Pipelines" : 20
+    "MLOps & Deployment" : 15
+```
 
 </td>
-</tr>
+<td width="50%" valign="top">
 
-<tr>
-<td width="34%" valign="top">
+<br/>
 
-### 🥇 Kaggle
-**Data Scientist — 2x Grandmaster**
+![ML](https://img.shields.io/badge/Machine%20Learning-████████░░%2085%25-38BDF8?style=for-the-badge&labelColor=0D1117)
 
-`Feb 2025 – Present` · Self-Employed
+![GenAI](https://img.shields.io/badge/Generative%20AI%20%26%20RAG-████████░░%2085%25-6D28D9?style=for-the-badge&labelColor=0D1117)
 
-</td>
-<td valign="top">
+![Data](https://img.shields.io/badge/Data%20Engineering-███████░░░%2075%25-16A34A?style=for-the-badge&labelColor=0D1117)
 
-Competing and publishing among the world's top data science practitioners.
+![MLOps](https://img.shields.io/badge/MLOps%20%26%20Cloud-██████░░░░%2070%25-0078D4?style=for-the-badge&labelColor=0D1117)
 
-- **#15 globally** in both **Datasets** and **Notebooks**
-- **32nd of 2,673 teams** — Akkadian Translation, using fine-tuned **ByT5** transformer models
-- **620+ notebooks** and **154+ datasets** — statistics, ML, NLP and deep learning
-- Competitor in **ARC-AGI**, Legal Information Retrieval and **NVIDIA** reasoning benchmarks
-
-</td>
-</tr>
-
-<tr>
-<td width="34%" valign="top">
-
-### 🔧 IT Loops
-**AI Engineer (Contract)**
-
-`Feb 2025 – May 2026`
-
-</td>
-<td valign="top">
-
-Data science and AI delivery for enterprise clients.
-
-- Predictive models, intelligent chatbots and **LLM-integrated automation systems**
-- Scalable ML/AI APIs with **FastAPI**, full **CI/CD** pipelines on GitHub
-- Client requirements translated into robust data pipelines and model architectures
-- Connected models to CRMs and communication platforms via workflow automation
+![Viz](https://img.shields.io/badge/Analytics%20%26%20BI-███████░░░%2080%25-F37626?style=for-the-badge&labelColor=0D1117)
 
 </td>
 </tr>
@@ -206,83 +256,47 @@ Data science and AI delivery for enterprise clients.
 
 ---
 
-<!-- ═══════════════════════════════ PROJECTS ═══════════════════════════════ -->
+<!-- ═══════════════════════════════ RAG ARCHITECTURE ═══════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/UVG0BN8TOMKkPOJS6e/giphy.gif" width="28"> &nbsp;Featured Projects
+## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="28"> &nbsp;A RAG System I Ship
 
-<table>
-<tr>
-<td width="50%" valign="top">
+```mermaid
+flowchart TB
+    subgraph ING[" 📥  Ingestion "]
+        D1[Documents] --> CH[Chunking]
+        CH --> EM[Embeddings]
+        EM --> VS[(FAISS / Chroma)]
+    end
 
-### ⚖️ Loophole Larry
-**Multi-Agent Legal AI Platform — UK Legal Aid & CPD**
+    subgraph RET[" 🔎  Retrieval "]
+        Q([User Query]) --> HY[Hybrid Search<br/>semantic + keyword]
+        VS --> HY
+        HY --> RR[Re-rank &<br/>Citation Gate]
+    end
 
-Citation-gated **RAG** question-answering over a jurisdiction-tagged UK legal corpus, with hybrid
-retrieval and entailment-based filtering that removes unsupported statements and enforces honest
-abstention out of corpus.
+    subgraph GEN[" 🧠  Generation "]
+        RR --> LLM[GPT-4o / Ollama]
+        LLM --> GR{Guardrails &<br/>Entailment Check}
+        GR -->|supported| ANS([Cited Answer])
+        GR -->|unsupported| ABS([Honest Abstention])
+    end
 
-- Fact-to-precedent case matching with ranked confidence bands (**≥85% precision** target)
-- Personalised **CPD recommendation engine** with sparse-profile fallback ranking
-- Deterministic eligibility calculators, guardrails and full audit traces
+    ANS --> EV[Eval & Logging]
+    ABS --> EV
 
-`Python` `LangChain` `GPT-4o` `RAG` `FastAPI` `PostgreSQL` `FAISS`
-
-</td>
-<td width="50%" valign="top">
-
-### 🏘️ Demand Scoring Engine
-**Real Estate SaaS Analytics Platform**
-
-Integrated **14,000+ property records** into an analytics platform with automated data processing,
-a demand-scoring model, and pipeline/lead reporting modules feeding executive dashboards.
-
-- Features engineered from listing, supply and lead-activity data
-- Properties ranked by expected demand
-- Scores exposed through a **FastAPI** service consumed by the product dashboard
-
-`Python` `FastAPI` `PostgreSQL` `AI Agents`
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### 💬 RAG + Agents Analytics Chatbot
-**Production Conversational Analytics**
-
-API-first conversational system with embedding pipelines, multi-source ingestion and semantic
-retrieval for context-aware document Q&A.
-
-- Agent orchestration with **tool calling** and persistent memory for multi-step reasoning
-- Retrieval-quality evaluation to reduce hallucinated answers
-
-`Python` `LangChain` `GPT-4o` `FastAPI` `FAISS` `Chroma`
-
-</td>
-<td width="50%" valign="top">
-
-### 📞 AI Voice Legal Intake Assistant
-**Real-Time Multi-Agent Voice System**
-
-Multi-agent system automating legal client intake over real-time calls, with structured data
-extraction and PostgreSQL persistence.
-
-- Real-time **speech recognition and synthesis** (Deepgram · ElevenLabs)
-- **Twilio** SIP call routing with automated email/CRM handoff
-- Flask monitoring APIs for reporting
-
-`Python` `GPT-4o` `Deepgram` `ElevenLabs` `Twilio` `PostgreSQL`
-
-</td>
-</tr>
-</table>
+    classDef box fill:#1f2937,stroke:#38BDF8,color:#e5e7eb
+    classDef store fill:#312e81,stroke:#818cf8,color:#ffffff
+    classDef out fill:#064e3b,stroke:#34d399,color:#ffffff
+    class D1,CH,EM,HY,RR,LLM,EV box
+    class VS store
+    class ANS,ABS,Q,GR out
+```
 
 ---
 
 <!-- ═══════════════════════════════ STATS ═══════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="28"> &nbsp;GitHub Analytics
+## <img src="https://media.giphy.com/media/ZDsSQwGyvoEQM6bQKW/giphy.gif" width="28"> &nbsp;GitHub Analytics
 
 <div align="center">
 
@@ -301,7 +315,7 @@ extraction and PostgreSQL persistence.
 
 <!-- ═══════════════════════════════ ACHIEVEMENTS ═══════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="28"> &nbsp;Achievements & Recognition
+## <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="28"> &nbsp;Achievements & Recognition
 
 <div align="center">
 
@@ -312,6 +326,7 @@ extraction and PostgreSQL persistence.
 | 🧠 | **32nd / 2,673 teams** — Akkadian Translation competition (fine-tuned ByT5) |
 | 🎤 | Invited speaker, **AI Technologies Summer School 2026** — Ivan Franko National University, Ukraine<br/>*70 speakers · 21 countries · 1,335 participants · Certificate of Gratitude* |
 | 🚀 | **LabLab.ai Hackathon** competitor — shipped working ML solutions under real-world constraints |
+| 🧪 | Global research challenges — **ARC-AGI**, Legal Information Retrieval, **NVIDIA** reasoning benchmarks |
 
 </div>
 
@@ -319,7 +334,7 @@ extraction and PostgreSQL persistence.
 
 <!-- ═══════════════════════════════ CERTIFICATIONS ═══════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/ZDsSQwGyvoEQM6bQKW/giphy.gif" width="28"> &nbsp;Certifications & Education
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28"> &nbsp;Certifications & Education
 
 <div align="center">
 
@@ -328,11 +343,24 @@ extraction and PostgreSQL persistence.
 <a href="https://www.coursera.org/account/accomplishments/professional-cert/QFL9NO24AM7X"><img src="https://img.shields.io/badge/Microsoft-AI%20%26%20ML%20Engineering-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft AI and ML Engineering"/></a>
 <a href="https://www.coursera.org/account/accomplishments/specialization/AXVDK22Y3XT4"><img src="https://img.shields.io/badge/U.%20of%20Michigan-Statistics%20with%20Python-00274C?style=for-the-badge&logo=coursera&logoColor=white" alt="Statistics with Python"/></a>
 <a href="https://www.coursera.org/"><img src="https://img.shields.io/badge/Meta-Full%20Stack%20Developer-0866FF?style=for-the-badge&logo=meta&logoColor=white" alt="Meta Full Stack Developer"/></a>
-<img src="https://img.shields.io/badge/Arch%20Technologies-ML%20Internship-334155?style=for-the-badge&logo=googlescholar&logoColor=white" alt="ML Internship"/>
+<img src="https://img.shields.io/badge/IBM-AI%20Engineering-054ADA?style=for-the-badge&logo=ibm&logoColor=white" alt="IBM AI Engineering"/>
 
 <br/><br/>
 
-🎓 &nbsp;**BS in Data Science** — Virtual University of Pakistan &nbsp;&nbsp;•&nbsp;&nbsp; **ICS** — Punjab Group of Colleges
+<table>
+<tr>
+<td align="center" width="50%">
+  <img src="https://img.icons8.com/fluency/48/graduation-cap.png" width="38"/><br/>
+  <b>BS in Data Science</b><br/>
+  <sub>Virtual University of Pakistan</sub>
+</td>
+<td align="center" width="50%">
+  <img src="https://img.icons8.com/fluency/48/books.png" width="38"/><br/>
+  <b>ICS — Computer Science</b><br/>
+  <sub>Punjab Group of Colleges</sub>
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -340,7 +368,7 @@ extraction and PostgreSQL persistence.
 
 <!-- ═══════════════════════════════ CONTACT ═══════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="28"> &nbsp;Let's Build Something
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> &nbsp;Let's Build Something
 
 <div align="center">
 
@@ -348,7 +376,7 @@ extraction and PostgreSQL persistence.
 
 <a href="mailto:hammadfarooq470@gmail.com"><img src="https://img.shields.io/badge/hammadfarooq470@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="https://www.linkedin.com/in/hammadfarooq-ai/"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="https://www.kaggle.com/hammadfarooq470"><img src="https://img.shields.io/badge/See%20my%20Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle"/></a>
+<a href="https://www.kaggle.com/malikhammadfarooq"><img src="https://img.shields.io/badge/See%20my%20Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle"/></a>
 
 <br/><br/>
 
